@@ -6,28 +6,20 @@
 /* /RESET */
 
 /* Debug */
-.debug > .container > [class*="col-"]{
-  height: 50px;
+.debug [class*="col-"]{
+  min-height: 50px;
 }
+
 .debug [class*="col-"] > .container [class*="col-"]{
   height: 100%;
 }
-.debug [class*="col-"]{
-  border: 1px solid green;
-}
 
-/* debug prove da implementare*/
-body > .container{
-  background-color: lightgrey;
-  margin-bottom: 30px;
-}
-.col-12{
-  width: 100%;
-}
-
+ /* debug prove da implementare*/
 [class*="col-"] > [class*="col-"]{
   padding: 15px;
+  border: 1px solid black;
 }
+
 /* /Debug */
 
 /* CONTAINER e COLONNE fissi */
@@ -94,10 +86,10 @@ body > .container{
   .col-xs-11{
     width: calc( ( 100% / 12 ) * 11 );
   }
-/*
+
   .col-xs-12{
     width: 100%;
-  } */
+  }
 
   /* colonne XS OFFSET */
   .offset-xs-1{
@@ -144,9 +136,9 @@ body > .container{
     margin-left: calc( ( 100% / 12 ) * 11 );
   }
 
-  /* .offset-xs-12{
+  .offset-xs-12{
     margin-left: calc( ( 100% / 12 ) * 12 );
-  } */
+  }
   /* /colonne XS OFFSET */
 }
 /* /COLONNE XS*/
@@ -197,9 +189,9 @@ body > .container{
     width: calc( ( 100% / 12 ) * 11 );
   }
 
-  /* .col-md-12{
+  .col-md-12{
     width: calc( ( 100% / 12 ) * 12 );
-  } */
+  }
 
   /* colonne MD OFFSET */
   .offset-md-1{
@@ -246,9 +238,9 @@ body > .container{
     margin-left: calc( ( 100% / 12 ) * 11 );
   }
 
-  /* .offset-md-12{
+  .offset-md-12{
     margin-left: calc( ( 100% / 12 ) * 12 );
-  } */
+  }
 }
 /* /COLONNE MD*/
 
@@ -298,9 +290,9 @@ body > .container{
     width: calc( ( 100% / 12 ) * 11 );
   }
 
-  /* .col-lg-12{
+  .col-lg-12{
     width: 100%;
-  } */
+  }
 
   /* colonne LG OFFSET */
   .offset-lg-1{
@@ -347,9 +339,9 @@ body > .container{
     margin-left: calc( ( 100% / 12 ) * 11 );
   }
 
-  /* .offset-lg-12{
+  .offset-lg-12{
     margin-left: calc( ( 100% / 12 ) * 12 );
-  } */
+  }
   /* /colonne LG OFFSET */
 }
 /* /COLONNE LG*/
