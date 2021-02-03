@@ -14,12 +14,6 @@
   height: 100%;
 }
 
- /* debug prove da implementare*/
-[class*="col-"] > [class*="col-"]{
-  padding: 15px;
-  border: 1px solid black;
-}
-
 /* /Debug */
 
 /* CONTAINER e COLONNE fissi */
@@ -39,7 +33,7 @@
   float:left;
   height: 100%;
 }
-/* /CONTAINER */
+/* /CONTAINER e COLONNE fissi*/
 
 /* COLONNE XS*/
 @media screen and (max-width: 420px){
